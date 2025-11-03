@@ -1,0 +1,21 @@
+Microserviços são uma abordagem arquitetural na qual uma aplicação é dividida em pequenos serviços independentes, cada um responsável por uma funcionalidade específica e executado de forma isolada. Diferente da arquitetura monolítica, onde todos os componentes estão integrados em um único bloco de código, os microserviços permitem que cada serviço seja desenvolvido, implantado e escalado separadamente.
+
+Na arquitetura monolítica, qualquer alteração exige a recompilação e o redeploy de toda a aplicação, o que pode dificultar a manutenção e a escalabilidade. Já nos microserviços, cada módulo pode evoluir de forma autônoma, facilitando a adoção de diferentes tecnologias e equipes especializadas.
+
+Os principais benefícios dos microserviços são:
+
+Escalabilidade independente: serviços podem ser escalados conforme a demanda específica.
+
+Agilidade no desenvolvimento: equipes podem trabalhar em paralelo em diferentes serviços.
+
+Facilidade de manutenção: erros são isolados, reduzindo o impacto no sistema como um todo.
+
+A comunicação entre microserviços pode ocorrer de forma:
+
+- Síncrona, geralmente via HTTP/REST ou gRPC.
+
+- Assíncrona, usando filas de mensagens como Kafka ou RabbitMQ.
+
+- Event-driven, com serviços reagindo a eventos publicados por outros.
+
+Essa arquitetura promove flexibilidade, resiliência e inovação contínua.
